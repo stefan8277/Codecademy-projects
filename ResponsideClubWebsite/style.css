@@ -1,0 +1,124 @@
+html{
+    font-size: 16px;
+}
+body {
+    font-family: Montserrat;
+    background-color: lightsalmon;
+}
+
+
+/*Navigation bars*/
+
+nav a {
+    text-decoration: none;
+}
+
+nav {
+    background-color: teal;
+    width: 100%;
+    height: auto;
+    align-items: center;
+
+}
+
+ul {
+    padding-top: 15px;
+    padding-bottom: 7px;
+}
+
+li {
+    display: inline;
+    margin-right: 50px;
+    font-size: 0.7rem;
+    color: lightsalmon;
+}
+
+
+/*Header*/
+
+header {
+    background-color: rgba(68, 51, 51, 0.7) ;
+    flex-wrap: wrap;
+    flex-direction: row;
+    height: 6rem;
+    width: 100%;
+    margin: 5rem 0rem;
+}
+
+header h2 {
+    color: salmon;
+    text-align: center;
+    padding-top: 2rem;
+}
+
+/*Main*/
+
+#club {
+    
+    z-index: 10;
+}
+
+#club h3 {
+    color: rgb(249, 253, 8);
+    font-size: 1.5rem;
+}
+
+#club p {
+    color: white;
+    font-size: 0.9rem;
+}
+
+#images {
+    width: 100%;
+    display: inline;
+    gap: auto;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    
+}
+
+#images img, #images-2 img {
+    width: 30%;
+    height: auto;
+    padding: 1rem;
+    flex: none;
+}
+
+#quote {
+    color: yellow;
+    background-color: teal;
+    width: 100%;
+    width: fit-content;
+    height: auto;
+    padding: 5rem 0rem; 
+}
+
+#quote h1 {
+    font-size: 3rem;
+}
+
+/*Footer*/
+footer {
+   
+    align-content: center;
+    text-align: center;
+    padding-top: 4rem;
+}
+
+footer img {
+    width: 55%;
+    height: auto;
+}
+
+footer h2 {
+    font-size: 2rem;
+    color: yellow;
+}
+
+@media only screen and (min-width:450) and (min-width:600) {
+    img {
+        display: block;
+        min-width: 100%
+
+    }
+}
