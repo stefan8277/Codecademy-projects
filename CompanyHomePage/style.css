@@ -1,0 +1,87 @@
+html {
+    font-size: 16px;
+}
+
+* {
+    font-family: Lexend Mega ;
+    text-align: center;
+}
+
+/*header*/
+
+header {
+    height: 200px;
+  
+}
+
+header h1 {
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+p {
+    display: inline;
+    width: auto;
+}
+
+
+/*main*/
+
+#mission {
+    background-image: url(https://content.codecademy.com/PRO/independent-practice-projects/flexbox-business-site/img/skyscrapers.jpg);       
+    height: 300px;
+    padding: 40px;
+    width: 100%;
+}
+
+#mission-content {
+    background-color: white;
+    width: 100%;
+    z-index: 1;
+    height: 150px;
+}
+
+#portofolio {
+    margin: auto;
+   
+}
+
+#companies {
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    display: flex;
+    margin-top: 100px;
+}
+
+.company {
+    display: flex;
+    align-items: center;
+
+}
+
+#companies img {
+    height: 150px;
+    width: auto;
+    
+}
+
+#port {
+    margin-bottom: 40px;
+}
+
+#team-container {
+    background-image: url(https://content.codecademy.com/PRO/independent-practice-projects/flexbox-business-site/img/blurred-road.jpg);
+}
+
+#team-container img {
+    height: 300px;
+    
+} 
+.member {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  
+    display: inline;
+}
